@@ -1,0 +1,21 @@
+.card-container {
+    .card {
+        font-weight: 600;
+        text-align: left;
+    }
+    .card-text {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        color: black;
+    }
+
+    .rating {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-weight: 700;
+        font-size: 18px;
+
+    }
+}
