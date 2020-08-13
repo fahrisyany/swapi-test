@@ -18,7 +18,7 @@ const CardCustom = (props) => {
                 <Card.Body>
                     <Card.Title>{data.name ? data.name : data.title}</Card.Title>
                     <Card.Text>
-                    Birth Year : {data.name ? data.birth_year : null}
+                    {data.name && <span> Birth Year :</span>} {data.name ? data.birth_year : null}
                     </Card.Text>
                 </Card.Body>
                 <Card.Body>
